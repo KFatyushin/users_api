@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/* User Table */
+
+.user-wrapper {
+  padding: 40px 0;
+}
+
+.user-table {
+  border-collapse: collapse;
+
+  margin: 0 auto;
+}
+
+.user-table__title {
+  font-size: 28px;
+
+  margin-bottom: 30px;
+}
+
+.user-table__header-name {
+  padding: 8px 35px;
+}
+
+.user-table__item td {
+  text-align: center;
+}
+.users-table__id {
+  padding: 0 10px;
+}
+.users-table__avatar {
+  padding: 0;
+
+  font-size: 0;
+}
+.user-table__name,
+.users-table__email {
+  padding: 0 20px;
+}
+.user-table__item a {
+  text-decoration: none;
+}
